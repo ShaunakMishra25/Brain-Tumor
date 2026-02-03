@@ -1,3 +1,7 @@
 archive/
 "archive.zip" 
 archive.zip 
+*.h5
+*.keras
+models/
+checkpoints/
