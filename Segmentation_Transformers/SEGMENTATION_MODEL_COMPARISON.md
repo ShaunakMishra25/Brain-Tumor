@@ -12,13 +12,13 @@
 | 3 | DeepLabV3+ (EfficientNet‑B0) | `DeepLabV3plus/DeepLabV3EfficientNetB0.ipynb` | 0.8566 | 0.7798 | 0.8482 | 0.8928 | 0.9960 |
 | 4 | DeepLabV3+ (MobileNet) | `DeepLabV3plus/DeepLabV3MobileNet.ipynb` | 0.8432 | 0.7659 | 0.8486 | 0.8721 | 0.9959 |
 | 5 | **SegFormer** (MiT‑B0, custom PyTorch — train encoder from scratch) | `Segmentation_Transformers/SegFormer.ipynb` · `segformer_torch.py` | 0.8273 | 0.7439 | 0.8370 | 0.8533 | 0.9951 |
-| 6 | UNet++ | `UNetpp/UNetpp.ipynb` | 0.8178 | 0.7460 | — | — | — |
-| 7 | UNet (baseline) | `UNet/UNet.ipynb` | 0.8080 | 0.7341 | — | — | — |
+| 6 | UNet++ | `UNetpp/UNetpp.ipynb` | 0.8178 | 0.7460 | 0.8305 | 0.8440 | 0.9947 |
+| 7 | UNet (baseline) | `UNet/UNet.ipynb` | 0.8080 | 0.7341 | 0.8566 | 0.8063 | 0.9949 |
 | 8 | **SETR** (ViT encoder + PUP decoder; see notebook for ViT init) | `Segmentation_Transformers/SETR.ipynb` | 0.7929 | 0.7030 | 0.8407 | 0.7853 | 0.9951 |
-| 9 | UNet + augmentation | `UNet/UNetWAugmentation.ipynb` | 0.7712 | 0.6890 | — | — | — |
-| 10 | Attention U‑Net | `Attention Unet/AUnet.ipynb` | 0.7652 | 0.6803 | — | — | — |
+| 9 | UNet + augmentation | `UNet/UNetWAugmentation.ipynb` | 0.7712 | 0.6890 | 0.7972 | 0.8067 | 0.9936 |
+| 10 | Attention U-Net | `Attention Unet/AUnet.ipynb` | 0.7652 | 0.6803 | 0.7819 | 0.7987 | 0.9936 |
 
-*“—”* = precision/recall/accuracy not transcribed from that notebook’s saved output (metrics cell exists — open file to confirm).
+All metrics match **saved notebook stdout** from each test metrics cell (BRISC test split). Re-run to refresh.
 
 ## Segmentation transformers folder (`Segmentation_Transformers/`)
 
